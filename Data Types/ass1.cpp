@@ -1,15 +1,13 @@
 // Example
-/*
 
-false				=> Boolean [bool]
+false => bool
+'a'   => char
+'9'   => char
+9     => int
+true  => bool
+100   => int
+-10   => int
+0     => int
+false => bool
+10.9  => double
 
-'a'					=> char 
-'9'					=> string
-9						=> integer [int]
-true				=> Boolean [bool]
-100					=> integer [int]
--10					=> integer [int]
-0						=> integer [int]
-false				=> Boolean [bool]
-10.9				=> float or double
-*/
