@@ -10,12 +10,13 @@ int main()
 	int e = 114;
 	int f = 111;
 
-	cout << char(a); 
-	cout << char(b); 
-	cout << char(c);
-	cout << char(d);
-	cout << char(e);
-	cout << char(f) << endl;
+	cout << "Character Of This ASCII Value 69 Is " << char(a) << endl;
+	cout << "Character Of This ASCII Value 108 Is " << char(b) << endl;
+	cout << "Character Of This ASCII Value 122 Is " << char(c) << endl;
+	cout << "Character Of This ASCII Value 101 Is " << char(d) << endl;
+	cout << "Character Of This ASCII Value 114 Is " << char(e) << endl;
+	cout << "Character Of This ASCII Value 111 Is " << char(f) << endl;
+
 
 	// Output Needed
 	/*
