@@ -8,9 +8,7 @@ int main()
 	int c = 17;
 	int d = 70;
 
-	cout << char(int(d - a));
-	cout << char(int(d + c));
-	cout << char(int(d + b));
+	cout << char(d - a) << char(d + c) << char(d + b) << endl;
 	// Output Needed
 	// "EWS"
 	return 0;
