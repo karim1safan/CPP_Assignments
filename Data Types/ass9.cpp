@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	// Edit Anything Except Values
-	int a = 100u;
-	int b = -100;
+	unsigned int a = 100;
+	signed int b = -100;
 	short c = 100;
 	double d = 500.55;
 
