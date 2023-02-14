@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
 	// Edit Anything Except Values
-	short int a = 100;
-	double b = 15001500;
+	short a = 100;
+	long b = 15001500;
 	long double c = 100.54565746;
 
 	// Do Not Edit
