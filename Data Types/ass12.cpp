@@ -9,10 +9,10 @@ int main()
 	long double c = 5.560000505012;
 
 	// Change ??? To Something Else To Get The Output
-	cout << sizeof(c) * 2 - sizeof(b) << "\n"; // 12
-	cout << sizeof(c) * 2 + sizeof(b) << "\n"; // 20
-	cout << sizeof(c) * 2 * sizeof(a) << "\n"; // 32
+	cout << sizeof(c) - sizeof(b) << "\n"; // 12
+	cout << sizeof(c) + sizeof(b) << "\n"; // 20
+	cout << sizeof(c)  * sizeof(a) << "\n"; // 32
 	cout << a * int(c) << "\n"; // 5000
-	cout << char((sizeof(c) * 2 + sizeof(b)) * sizeof(b)) << "\n"; // P
+	cout << char((sizeof(c) + sizeof(b)) * sizeof(b)) << "\n"; // P
 	return 0;
 }
